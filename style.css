@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+header {
+  background-color: #bce7fd;
+  padding: 80px;
+}
+
+h1 {
+  font-size: 80px;
+  margin-left: 100;
+  justify-content: "center";
+  align-self: "center";
+  margin-top: 10;
+  color: rgb(0, 0, 0);
+}
+
+main {
+  padding: 20px;
+}
+
+#question-form {
+  margin-bottom: 200;
+}
+
+textarea,
+input[type="text"] {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 10px 20px;
+  width: 20;
+}
+
+#questions {
+  list-style-type: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.question {
+  background-color: #f1a19b;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.answer {
+  background-color: #f3dcda;
+  padding: 10px;
+  margin-left: 0px;
+  font-size: 15px;
+}
